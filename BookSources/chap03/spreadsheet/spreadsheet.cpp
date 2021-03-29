@@ -3,6 +3,9 @@
 #include "cell.h"
 #include "spreadsheet.h"
 
+#include <QApplication>
+#include <QMessageBox>
+
 Spreadsheet::Spreadsheet(QWidget *parent)
     : QTableWidget(parent)
 {

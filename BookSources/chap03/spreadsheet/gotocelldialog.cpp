@@ -1,6 +1,7 @@
-#include <QtGui>
-
 #include "gotocelldialog.h"
+
+#include <QPushButton>
+#include <QRegExpValidator>
 
 GoToCellDialog::GoToCellDialog(QWidget *parent)
     : QDialog(parent)

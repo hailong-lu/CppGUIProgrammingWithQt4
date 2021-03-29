@@ -6,6 +6,14 @@
 #include "sortdialog.h"
 #include "spreadsheet.h"
 
+
+#include <QFileDialog>
+#include <QMessageBox>
+#include <QMenuBar>
+#include <QMenu>
+#include <QToolBar>
+#include <QStatusBar>
+
 MainWindow::MainWindow()
 {
     spreadsheet = new Spreadsheet;
